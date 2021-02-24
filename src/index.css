@@ -1,0 +1,53 @@
+body {
+    background-color: #89609E;
+}
+
+.groups__item {
+    flex: 0 0 15rem;
+    margin: 0 0.5rem 0 0;
+}
+
+.groups__item header,
+.groups__item .inner {
+    cursor: pointer;
+}
+
+.groups {
+    display: flex;
+}
+
+.inner,
+.add-new {
+    background-color: rgba(222, 225, 227, 0.9);
+    border-radius: 3px;
+    padding: 0.75em;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+}
+
+.main__header {
+    position: relative;
+    background-color: #745286;
+}
+
+.dashboard {
+    overflow-x: auto;
+}
+
+.tasks {
+    min-height: 15px;
+}
+
+.tasks__item {
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.modal-task > div {
+    height: 260px;
+}
